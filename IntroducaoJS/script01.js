@@ -27,7 +27,7 @@ console.log('Resto da Divisão: '+ (a % b));//Mostrando o resultado do resto da 
 >= - Maior ou igual
 <= - Menor ou igual
 == - Igual
-=== - Igual e do mesmo tipo
+=== - Igual e do mesmo tipo (Estritamente igual)
 
 */
 
