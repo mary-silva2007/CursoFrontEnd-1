@@ -9,13 +9,14 @@ import { PedidoFormComponent } from './componentes/pedido-form/pedido-form.compo
 import { PedidoListComponent } from './componentes/pedido-list/pedido-list.component';
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     ClienteFormComponent,
     ProdutoFormComponent,
     PedidoFormComponent,
-    PedidoListComponent
+    PedidoListComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,4 +27,3 @@ import { FormsModule } from '@angular/forms';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
