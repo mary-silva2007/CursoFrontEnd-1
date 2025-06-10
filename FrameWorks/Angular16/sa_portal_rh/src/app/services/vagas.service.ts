@@ -20,8 +20,22 @@ export class VagasService {
   }
 
   //post
+  postVagas(Vaga:Vaga): Observable<Vaga[]>{
+    return this.http.post<Vaga[]>(this.apiUrl,Vaga);
+    // Observable -> rxjs => tradutor de json
+  }
 
   //put
+  // nomeDoMétodo(parâmeetros)
+  putVaga(id: any, vaga:Vaga): Observable<Vaga[]> { // coleção chave -> valor
+    // http://localhost:3001/vagas/XXXXX
+    const url = `${this.apiUrl}/${id}`; //construir a url join(apiUrl+id)
+    return this.http.put<Vaga[]>(url, vaga);
+  }
 
   //delete
+  deleteVaga(id:any): Observable<Vaga[]>{
+    const url = this.apiUrl+"/"+id;
+    return this.http.delete<Vaga[]>(url);
+  }
 }
