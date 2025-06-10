@@ -58,4 +58,26 @@ export class Vaga {
   public set salario(value: number) {
     this._salario = value;
   }
+
+  // OBJ => JSON
+  public toMap():{[key:string]:any}{
+    return{
+      id: this.id,
+      nome: this.nome,
+      foto: this.foto,
+      descricao: this.descricao,
+      salario: this.salario
+    }
+  }
+
+  // JSON => OBJ
+  static fromMap(map:any): Vaga{
+    return new Vaga(
+      map.id,
+      map.nome,
+      map.foto,
+      map.descricao,
+      map.salario
+    )
+  }
 }
