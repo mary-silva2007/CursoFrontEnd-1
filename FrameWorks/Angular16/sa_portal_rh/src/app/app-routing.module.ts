@@ -10,7 +10,10 @@ const routes: Routes = [
   {path:"",component: HomeComponent},
   {path:"vagas", component: VagasComponent},
   {path:"curriculos", component: CurriculosComponent},
-  {path:"painel-vagas", component: PainelVagasComponent}
+  {path:"painel-vagas", component: PainelVagasComponent},
+  {path:"curriculos/novo", component: CurriculosComponent},
+  {path:"curriculos/editar/:id", component: CurriculosComponent},
+  {path:"curriculos/novo", component: CurriculosComponent}
 ];
 
 @NgModule({
