@@ -10,9 +10,6 @@ import { HomeComponent } from './views/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PainelVagasComponent } from './views/painel-vagas/painel-vagas.component';
 import { FormsModule } from '@angular/forms';
-import { CurriculoFormComponent } from './views/curriculo-form/curriculo-form.component';
-import { CurriculoListComponent } from './views/curriculo-list/curriculo-list.component';
-import { CurriculoDetailComponent } from './views/curriculo-detail/curriculo-detail.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +19,7 @@ import { CurriculoDetailComponent } from './views/curriculo-detail/curriculo-det
     CurriculosComponent,
     VagasComponent,
     HomeComponent,
-    PainelVagasComponent,
-    CurriculoFormComponent,
-    CurriculoListComponent,
-    CurriculoDetailComponent,
+    PainelVagasComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
