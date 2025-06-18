@@ -22,25 +22,11 @@
       "salario": 8000
     },
     {
-      "id": 0,
-      "nome": "",
-      "foto": "",
-      "descricao": "",
-      "salario": 0
-    },
-    {
-      "id": 0,
-      "nome": "",
-      "foto": "",
-      "descricao": "",
-      "salario": 0
-    },
-    {
-      "id": 0,
-      "nome": "",
-      "foto": "",
-      "descricao": "",
-      "salario": 0
+      "id": "5",
+      "nome": "MArco",
+      "foto": "A",
+      "descricao": "A",
+      "salario": "32233232"
     }
   ],
   "curriculos": [
