@@ -1,13 +1,6 @@
 {
   "vagas": [
     {
-      "id": "1",
-      "nome": "Desenvolver FrontEnd Jr",
-      "foto": "foto1.jpg",
-      "descricao": "Trabalhar com HTML, CSS e JS",
-      "salario": 4000
-    },
-    {
       "id": "2",
       "nome": "Desenvolver BackEnd Pleno",
       "foto": "foto2.jpg",
@@ -29,124 +22,25 @@
       "salario": 8000
     },
     {
-      "id": "c1da",
-      "_id": "1",
-      "_nome": "Desenvolver FrontEnd Jr",
-      "_foto": "foto1.jpg",
-      "_descricao": "Trabalhar com HTML, CSS e JS",
-      "_salario": 4000
+      "id": 0,
+      "nome": "",
+      "foto": "",
+      "descricao": "",
+      "salario": 0
     },
     {
-      "id": "ef4a",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
+      "id": 0,
+      "nome": "",
+      "foto": "",
+      "descricao": "",
+      "salario": 0
     },
     {
-      "id": "7aa8",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "0572",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "c414",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "f2e6",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "db89",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "37dc",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "882d",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "f836",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "e86d",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "156c",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "9c21",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "ca0f",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
-    },
-    {
-      "id": "824a",
-      "_id": 0,
-      "_nome": "",
-      "_foto": "",
-      "_descricao": "",
-      "_salario": 0
+      "id": 0,
+      "nome": "",
+      "foto": "",
+      "descricao": "",
+      "salario": 0
     }
   ],
   "curriculos": [

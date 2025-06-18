@@ -4,8 +4,8 @@ import { CurriculoService } from 'src/app/services/curriculo.service';
 
 @Component({
   selector: 'app-curriculo-list',
-  templateUrl: './curriculo-list.component.html',
-  styleUrls: ['./curriculo-list.component.scss']
+  templateUrl: './painel-curriculos.component.html',
+  styleUrls: ['./painel-curriculos.component.scss']
 })
 export class PainelCurriculosComponent implements OnInit {
   //atributos

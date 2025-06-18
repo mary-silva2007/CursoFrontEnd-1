@@ -10,6 +10,7 @@ import { HomeComponent } from './views/home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PainelVagasComponent } from './views/painel-vagas/painel-vagas.component';
 import { FormsModule } from '@angular/forms';
+import { PainelCurriculosComponent } from './views/painel-curriculos/painel-curriculos.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FormsModule } from '@angular/forms';
     CurriculosComponent,
     VagasComponent,
     HomeComponent,
-    PainelVagasComponent
+    PainelVagasComponent,
+    PainelCurriculosComponent
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule, FormsModule],
   providers: [],
