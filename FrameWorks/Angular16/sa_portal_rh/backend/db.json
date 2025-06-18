@@ -64,11 +64,11 @@
     },
     {
       "id": "5",
-      "nome": "Jotinha",
-      "idade": "29",
-      "linkedin": "https://br.linkedin.com/",
-      "github": "https://github.com/",
-      "experiencia": "Trabalhei por 6 anos na Amazon"
+      "nome": "Marco",
+      "idade": 0,
+      "linkedin": "",
+      "github": "",
+      "experiencia": ""
     }
   ]
 }
