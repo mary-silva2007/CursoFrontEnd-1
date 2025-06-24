@@ -2,37 +2,37 @@
   "vagas": [
     {
       "id": "2",
-      "nome": "Desenvolver BackEnd Pleno",
+      "nome": "Arquitetura de Soluções Backend",
       "foto": "foto2.jpg",
-      "descricao": "Trabalhar com Desenvolvimento Web",
-      "salario": 7000
+      "descricao": "Desenvolver soluções de backend escaláveis e eficientes",
+      "salario": 7500
     },
     {
       "id": "3",
-      "nome": "Desenvolver Fullstack Senior",
+      "nome": "Líder Técnico Fullstack",
       "foto": "foto3.jpg",
-      "descricao": "Trabalhar com Desenvolvimento Web",
-      "salario": 10000
+      "descricao": "Liderar a equipe no desenvolvimento de sistemas fullstack de ponta",
+      "salario": 12000
     },
     {
       "id": "4",
-      "nome": "Engenherio nuvem",
+      "nome": "Especialista em Infraestrutura Cloud",
       "foto": "foto4.jpg",
-      "descricao": "Trabalhar com Cloud",
-      "salario": 8000
+      "descricao": "Gerenciar e otimizar a infraestrutura de nuvem da empresa",
+      "salario": 9500
     },
     {
       "id": "5",
-      "nome": "MArco",
+      "nome": "Programador Trainee",
       "foto": "A",
-      "descricao": "A",
-      "salario": "32233232"
+      "descricao": "Desenvolver e testar sistemas sob orientação",
+      "salario": 4000
     }
   ],
   "curriculos": [
     {
       "id": "1",
-      "nome": "João",
+      "nome": "Ana Beatriz",
       "idade": "34",
       "linkedin": "https://br.linkedin.com/",
       "github": "https://github.com/",
@@ -40,7 +40,7 @@
     },
     {
       "id": "2",
-      "nome": "Maria",
+      "nome": "Carlos Eduardo",
       "idade": "25",
       "linkedin": "https://br.linkedin.com/",
       "github": "https://github.com/",
@@ -48,7 +48,7 @@
     },
     {
       "id": "3",
-      "nome": "Cleber",
+      "nome": "Felipe Oliveira",
       "idade": "30",
       "linkedin": "https://br.linkedin.com/",
       "github": "https://github.com/",
@@ -56,7 +56,7 @@
     },
     {
       "id": "4",
-      "nome": "Matheus",
+      "nome": "Juliana Santos",
       "idade": "26",
       "linkedin": "https://br.linkedin.com/",
       "github": "https://github.com/",
@@ -64,11 +64,11 @@
     },
     {
       "id": "5",
-      "nome": "Marco",
-      "idade": 0,
-      "linkedin": "",
-      "github": "",
-      "experiencia": ""
+      "nome": "Lucas Silva",
+      "idade": "35",
+      "linkedin": "https://br.linkedin.com/",
+      "github": "https://github.com/",
+      "experiencia": "Trabalhei por 4 anos na Mahle"
     }
   ]
 }
