@@ -69,8 +69,8 @@ classDiagram
         +delete()  
     }
 
-    usuario "1" -- "1+" OrdemServico: "é responsável por"
-    Equipamento "1" -- "1+" OrdemServico: "associado a"
+    Usuario "1" --> "1+" OrdemServico: "é responsável por"
+    Equipamento "1" --> "1+" OrdemServico: "associado a"
 
 ```
 #### Explicação do Diagrama de Classe
