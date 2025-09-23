@@ -93,13 +93,13 @@ classDiagram
     Fazer o Login -> Antes de qualquer ação
 
 ```mermaid
-graph Td 
+graph TD
     subgraph "SGM"
-       uc1([Fazer Login])
-       uc2([Gerenciar Ordens de Serviço - CRUD])
-       uc3([Gerenciar Equipamentos CRUD])
-       uc4([Gerenciar Usuario])
-       uc5([Acessar o DashBoard])
+        caso1([Fazer Login])
+        caso2([Gerenciar Ordens de Serviço - CRUD])
+        caso3([Gerenciar Equipamentos - CRUD])
+        caso4([Gerenciar Usuário])
+        caso5([Acessar o DashBoard])
     end
 
     Tecnico([Técnico de Manutenção])
@@ -115,13 +115,13 @@ graph Td
     Gestor --> caso3
     Gestor --> caso5
 
-    Admim --> caso1
-    Admim --> caso4
-    Admim --> caso5
+    Admin --> caso1
+    Admin --> caso4
+    Admin --> caso5
 
-    caso2 -,-> caso1
-    caso3 -,-> caso1
-    caso4 -,-> caso1
-    caso5 -,-> caso1
+    caso2 -.-> caso1
+    caso3 -.-> caso1
+    caso4 -.-> caso1
+    caso5 -.-> caso1
 
 ```
