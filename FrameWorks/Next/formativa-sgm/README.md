@@ -72,4 +72,11 @@ classDiagram
     usuario "1" -- "1+" OrdemServico: "é responsável por"
     Equipamento "1" -- "1+" OrdemServico: "associado a"
 
-    ```
+```
+#### Explicação do Diagrama de Classe
+ - Um Usuário (Técnico) por ser responsável por várias Ordens de Servico
+ - Um Equipamento por estar associado a várias Ordens de Serviço
+
+ 2. ### Diagram De Cso de Uso
+ Ilustrar as interações dos diferentes tipos de usuarios (atores) com as funcionalidades do sistema
+
