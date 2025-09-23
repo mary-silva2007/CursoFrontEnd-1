@@ -94,7 +94,7 @@ classDiagram
 
 ```mermaid
 graph Td 
-    subGraph "SGM"
+    subgraph "SGM"
         caso1 ([Fazer Login])
         caso2 ([Gerenciar Ordens de Serviço - CRUD])
         caso3 ([Gerenciar Equipamentos CRUD])
