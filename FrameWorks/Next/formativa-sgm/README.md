@@ -77,6 +77,51 @@ classDiagram
  - Um Usuário (Técnico) por ser responsável por várias Ordens de Servico
  - Um Equipamento por estar associado a várias Ordens de Serviço
 
- 2. ### Diagram De Cso de Uso
+
+
+ 2. ### Diagram De Caso de Uso
  Ilustrar as interações dos diferentes tipos de usuarios (atores) com as funcionalidades do sistema
 
+ #### Explicação:
+ - Atores: Técnico, Gestor, Admin
+
+ - Casos de Usos: 
+    - Técnico: Gerenciar Ordens de Serviço (CRUD) e acessar o DashBoard
+    - Gestor: Gerenciar Ordens de Serviço (CRUD) , Gerenciar Equipamento (CRUD), Acessar o DashBord
+    - Admin: Gerenciar Usuários, acessar o DashBoard (TELA INICIAL, DPS DO LOGIN)
+
+    Fazer o Login -> Antes de qualquer ação
+
+```mermaid
+graph Td 
+    subGraph "SGM"
+        caso1 ([Fazer Login])
+        caso2 ([Gerenciar Ordens de Serviço - CRUD])
+        caso3 ([Gerenciar Equipamentos CRUD])
+        caso4 ([Gerenciar Usuario])
+        caso5 ([Acessar o DashBoard])
+    end
+
+    Tecnico([Técnico de Manutenção])
+    Gestor([Gerente de Manutenção])
+    Admin([Administrador do Sistema])
+
+    Tecnico --> caso1 
+    Tecnico --> caso3
+    Tecnico --> caso5
+
+    Gestor --> caso1
+    Gestor --> caso2
+    Gestor --> caso3
+    Gestor --> caso5
+
+    Admim --> caso1
+    Admim --> caso4
+    Admim --> caso5
+
+    caso2 -,-> caso1
+    caso3 -,-> caso1
+    caso4 -,-> caso1
+    caso5 -,-> caso1
+
+```
