@@ -66,31 +66,29 @@ classDiagram
         +create()
         +read()
         +update()
-        +delete()  
+        +delete()
     }
 
-    Usuario "1" --> "1+" OrdemServico: "é responsável por"
-    Equipamento "1" --> "1+" OrdemServico: "associado a"
+    Usuario "1" -- "1+" OrdemServico : "é resposável por"
+    Equipamento "1" -- "1+" OrdemServico : "associado a"
 
 ```
-#### Explicação do Diagrama de Classe
+ #### Explicação do Diagrama de Classe
  - Um Usuário (Técnico) por ser responsável por várias Ordens de Servico
  - Um Equipamento por estar associado a várias Ordens de Serviço
 
+ 2. ### Diagrama de Caso de Uso
+ Ilustrar as interações dos diferentes tipos de usuários (atores) com as funcionalidades do sistema
 
+#### Explicação:
+- Atores: Técnico, Gestor, Admin
 
- 2. ### Diagram De Caso de Uso
- Ilustrar as interações dos diferentes tipos de usuarios (atores) com as funcionalidades do sistema
+- Casos de Usos:
+    - Técnico: Gerenciar Ordens de Servico (CRUD) e acessar o DashBoard
+    - Gestor: Gerenciar Ordens de Serviço (CRUD) , Gerenciar Equipamento (CRUD), Acessar o DashBoard
+    -Admin: Gerenciar Usuário, acessar o DashBoard
 
- #### Explicação:
- - Atores: Técnico, Gestor, Admin
-
- - Casos de Usos: 
-    - Técnico: Gerenciar Ordens de Serviço (CRUD) e acessar o DashBoard
-    - Gestor: Gerenciar Ordens de Serviço (CRUD) , Gerenciar Equipamento (CRUD), Acessar o DashBord
-    - Admin: Gerenciar Usuários, acessar o DashBoard (TELA INICIAL, DPS DO LOGIN)
-
-    Fazer o Login -> Antes de qualquer ação
+    Fazer o Login -> Antes de Qualquer Ação
 
 ```mermaid
 graph TD
@@ -125,3 +123,7 @@ graph TD
     caso5 -.-> caso1
 
 ```
+
+
+
+    
