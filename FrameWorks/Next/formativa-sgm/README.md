@@ -95,11 +95,11 @@ classDiagram
 ```mermaid
 graph Td 
     subgraph "SGM"
-        caso1 ([Fazer Login])
-        caso2 ([Gerenciar Ordens de Serviço - CRUD])
-        caso3 ([Gerenciar Equipamentos CRUD])
-        caso4 ([Gerenciar Usuario])
-        caso5 ([Acessar o DashBoard])
+       uc1 ([Fazer Login])
+       uc2 ([Gerenciar Ordens de Serviço - CRUD])
+       uc3 ([Gerenciar Equipamentos CRUD])
+       uc4 ([Gerenciar Usuario])
+       uc5 ([Acessar o DashBoard])
     end
 
     Tecnico([Técnico de Manutenção])
