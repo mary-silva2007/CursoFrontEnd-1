@@ -2,6 +2,9 @@
 
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import DashboardAdmin from "./dashboardAdmin";
+import DashboardGestor from "./dashboardGestor";
+import DashboardTecnico from "./dashboardTecnico";
 
 export default function DashboardPage(){
     const route = useRouter();

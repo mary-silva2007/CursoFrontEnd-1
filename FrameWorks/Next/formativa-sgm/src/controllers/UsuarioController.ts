@@ -1,4 +1,5 @@
 import Usuario, { IUsuario } from "@/models/Usuario";
+import { criarAdmin } from "@/scripts/createUserAdmin";
 import connectMongo from "@/services/mongodb";
 
 //getAll
@@ -41,6 +42,8 @@ export const deleteUsuario = async (id: string) => {
 //método de autenticação de usuário (login) a senha é comparada
 export const autenticaUsuario = async (email: string, senha: string) => {
   await connectMongo();
+  //rodar o método criarAdmin
+  await criarAdmin();
   //buscar o usuário pelo email
   const usuario = await Usuario.find({ email }).select("+senha");
   //se caso usuári não encontrado
